@@ -142,3 +142,22 @@ a[aria-expanded=true] .view-more {
  a[aria-expanded=false] .view-less {
     display: none;
  }
+
+
+ @media screen and (max-width: 600px) {
+    .col-ms-10 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .d-block{
+        display: -webkit-block!important;
+        display: -ms-block!important;
+        display: block !important;
+        margin-right: -15px;
+    }
+    .project{
+        margin-right: 0px !important;
+    }
+  }

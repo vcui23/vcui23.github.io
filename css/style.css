@@ -155,7 +155,7 @@ a[aria-expanded=true] .view-more {
         display: -webkit-block!important;
         display: -ms-block!important;
         display: block !important;
-        margin-right: -15px;
+        margin-right: -15px !important;
     }
     .project{
         margin-right: 0px !important;

@@ -160,4 +160,7 @@ a[aria-expanded=true] .view-more {
     .project{
         margin-right: 0px !important;
     }
+    .project figure{
+        width: 100% !important;
+    }
   }
